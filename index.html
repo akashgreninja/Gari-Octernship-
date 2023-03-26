@@ -34,10 +34,19 @@
             Download Now
             <img src="./images/playstore.svg" alt="" srcset="" width="30px" />
           </button>
-          <button class="text-black flex flex-column">
+          <button class="text-black flex flex-column mr-5">
             Download Now
             <img
               src="./images/logo-apple-3.png"
+              alt=""
+              srcset=""
+              width="30px"
+            />
+          </button>
+          <button class="text-black flex flex-column">
+            Visit us on your Browser
+            <img
+              src="./images/img_390065.png.crdownload"
               alt=""
               srcset=""
               width="30px"
@@ -74,7 +83,9 @@
             </center>
           </div>
         </div>
-        <div class="flex flex-row justify-evenly items-center mx-10 items-center">
+        <div
+          class="flex flex-row justify-evenly items-center mx-test items-center"
+        >
           <div class="flex px-10 flex-col items-center">
             <img
               src="https://chingari.io/images/new/icons/play-button.svg"
@@ -96,7 +107,7 @@
             />
             <h2 class="text-white">Watch</h2>
             <p class="text-white">
-              Earn while you watch videos from our wide category collections
+              Share your favourite video with others and earn Gari
             </p>
           </div>
           <div class="flex px-10 flex-col items-center">
@@ -108,7 +119,7 @@
             />
             <h2 class="text-white">Watch</h2>
             <p class="text-white">
-              Earn while you watch videos from our wide category collections
+              Reach out to our huge audience by sharing your creativity
             </p>
           </div>
           <div class="flex px-10 flex-col items-center">
@@ -120,12 +131,30 @@
             />
             <h2 class="text-white">Watch</h2>
             <p class="text-white">
-              Earn while you watch videos from our wide category collections
+              Even liking videos on chinagri gets you Gari
             </p>
           </div>
-          
-          
-         
+        </div>
+      </section>
+      <section>
+        <div>
+          <h1 class="text-white text-center font-bold text-medium mt-5">
+            Engage with your favorite creators and Earn Money
+          </h1>
+        </div>
+      </section>
+      <section>
+        <div class="flex flex-row justify-evenly items-center">
+          <div>
+            <video width="600" height="370" id="my-video" autoplay  >
+                <source src="./images/Chingari - Bharat Ka Apna Video App.mp4" type="video/mp4"></source>
+                Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class=" h-lastsectionh w-lastsectionh ">
+            <img src="./images/landing-page.png" alt="" srcset="" class=" w-full h-full">
+          </div>
+        </div>
       </section>
     </main>
     <footer
@@ -167,5 +196,16 @@
       </div>
     </footer>
   </body>
+  <script>
+    window.addEventListener('scroll', function() {
+      var video = document.getElementById('my-video');
+      var videoPosition = video.getBoundingClientRect().top;
+      var screenPosition = window.innerHeight;
+  
+      if (videoPosition < screenPosition) {
+        video.play();
+      }
+    });
+  </script>
   <script src="./tailwind.config.js"></script>
 </html>

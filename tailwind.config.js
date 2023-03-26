@@ -8,13 +8,16 @@ tailwind.config = {
         "3/4": "60px",
         forgif: "30rem",
         "footer-height": "16rem",
+        lastsectionh:"40vw"
       },
       width: {
         forgif: "70vw",
+        lastsectionw:"40vw"
       },
       margin: {
         "4/5": "13rem",
         check: "20%",
+        test: "10%",
       },
       backgroundColor: {
         "chakranti-200": "rgb(15 15 15)",
