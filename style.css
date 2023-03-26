@@ -5,8 +5,8 @@
   font-style: normal;
 }
 
-button,
-button::after {
+.the-download-button,
+.the-download-button::after {
   padding: 20px 20px !important;
   font-size: 18px;
   background: white !important;
@@ -19,7 +19,7 @@ button::after {
   position: relative;
 }
 
-button::after {
+.the-download-button::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -44,7 +44,7 @@ button::after {
   clip-path: var(--slice-0);
 }
 
-button:hover::after {
+.the-download-button:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
 }

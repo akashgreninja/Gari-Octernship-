@@ -16,8 +16,10 @@ tailwind.config = {
       },
       margin: {
         "4/5": "13rem",
-        check: "20%",
+        check: "10%",
         test: "10%",
+        fortest2:"20%",
+        bottommargin:"70px"
       },
       backgroundColor: {
         "chakranti-200": "rgb(15 15 15)",
@@ -27,7 +29,7 @@ tailwind.config = {
         "garvi-background": "url('./images/1120_Slice-Illos-2-copy.gif')",
       },
       fontSize: {
-        bigg: "5rem",
+        bigg: "6rem",
         smoller: "2rem",
         medium: "3rem",
       },
